@@ -1,0 +1,27 @@
+.productscard{
+    margin-top: 10;
+    
+    display: flex;
+    flex-shrink: initial;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 4rem;
+}
+.buttonsmovie{
+    margin-top: 70;
+   
+    display: flex;
+    flex-shrink: initial;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 19em;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
