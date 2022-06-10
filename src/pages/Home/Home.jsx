@@ -1,5 +1,3 @@
-
-
 import { useState, useEffect } from 'react';
 import  {getMovies, updateMovie}  from '../../services';
 import MovieCard from '../../components/MovieCard/MovieCard';
