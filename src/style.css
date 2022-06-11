@@ -6,6 +6,15 @@
     font-family: 'Ubuntu', sans-serif;
     gap: 4rem;
 }
+.rankingcard{
+    margin-top: 10;
+    
+    display: flex;
+    flex-direction: column;
+    flex-shrink: initial;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 4rem;
+}
 .buttonsmovie{
     margin-top: 70;
    
