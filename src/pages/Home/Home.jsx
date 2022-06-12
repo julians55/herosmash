@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import  {getMovies, updateMovie}  from '../../services';
 import MovieCard from '../../components/MovieCard/MovieCard';
 import Header from '../../components/Header/Header';
-import { Grid, Typography } from '@mui/material';
+import { Grid, Typography, Box } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import Button from '@mui/material/Button';
 import '../../style.css';
@@ -20,8 +20,8 @@ const useStyles = makeStyles({
     marginRight: "10px",
     width: "350px"
   },
-  button: {
-      marginRight: "32%",
+  Button: {
+      width: 300
   },
   title: {
     marginTop: "-40%",
@@ -92,8 +92,9 @@ function Home() {
         ))}
       </div>
       <div className='buttonsmovie'>
-        <Button className={classes.Button} onClick={handleUpdate}>{movies[0].title}</Button>
-        <Button onClick={handleUpdate2}>{movies[1].title}</Button>
+        <div className='buttons'><Button className={classes.Button} size={"SMALL"}onClick={handleUpdate}>{movies[0].title}</Button></div>
+        <div className='buttons'><Button className={classes.Button} onClick={handleUpdate2}>{movies[1].title}</Button></div>
+        
       </div>
     </div></>
   )

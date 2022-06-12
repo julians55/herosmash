@@ -17,11 +17,12 @@
 }
 .buttonsmovie{
     margin-top: 70;
-   
+    margin-left: '-10%';
     display: flex;
-    flex-shrink: initial;
+    flex-direction: row;
+    
     font-family: 'Ubuntu', sans-serif;
-    gap: 19em;
+    gap: 7rem;
 }
 .container{
     justify-content: center;
@@ -33,4 +34,11 @@
 .row{
     margin-top: 5%;
     margin-bottom: 3%;
+}
+.buttons{
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+
 }
