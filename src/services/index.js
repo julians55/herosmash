@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:8081/api/movies';
+const API = 'https://herosmash-server.herokuapp.com/api/movies';
 
 const config = {
     method: 'get',

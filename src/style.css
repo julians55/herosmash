@@ -42,3 +42,17 @@
     text-align: center;
 
 }
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: white;
+  }
+  
+  a:link {
+    color: white;
+  }
+.header{
+    display: flex;
+    flex-direction: row;
+}

@@ -80,6 +80,9 @@ function Home() {
   return(
     <><div className='container'>
       <Header />
+      <a href="/ranking" className="brand-name">
+        Ranking
+      </a>
       <div className='row'>
         <Typography variant='h4'>Elige una pelicula!</Typography>
       </div>
