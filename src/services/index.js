@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'https://herosmash-server.herokuapp.com/api/movies';
+const API = 'https://herosmash-back.vercel.app//api/movies';
 
 const config = {
     method: 'get',
